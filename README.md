@@ -1,0 +1,1 @@
+This repository demonstrates a subtle data truncation bug in a COBOL program.  The bug arises from an implicit assumption about data lengths. The program moves data between areas without properly accounting for potential size mismatches.  The solution shows how to explicitly handle the data length to prevent truncation and ensure data integrity.
